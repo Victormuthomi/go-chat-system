@@ -59,13 +59,13 @@ docker run -p 8080:8080 gochat
 ## 💬 Demo / Usage
 
 1. Start the server:
-   ```bash
+    ```bash
    go run main.go
    ```
-1.Open index.html in a browser.
-2.Open another tab or browser window with the same index.html.
-4.Type a message in one tab → it instantly appears in the other tab.
-5. 🔄 All communication happens over WebSockets.
+3. Open index.html in a browser.
+4. Open another tab or browser window with the same index.html.
+5. Type a message in one tab → it instantly appears in the other tab.
+6. 🔄 All communication happens over WebSockets.
 6.⚠️ Messages are not stored — they vanish once you close the page.
 ---
 ## 🛣 Roadmap
@@ -87,6 +87,7 @@ Feel free to fork this repo and submit pull requests.
 ## 📜 License
 
 This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+
 
 
 
