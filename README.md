@@ -35,9 +35,9 @@ The server will start at:
 ```bash
 👉 http://localhost:8080
 ```
-#### Client
-**Open index.html in your browser and start chatting in real time!
-Messages are ephemeral — once you close the page, the chat is gone.**
+## Client
+Open index.html in your browser and start chatting in real time!
+Messages are ephemeral — once you close the page, the chat is gone.
 ---
 ## ☁️ Deployment
 
@@ -62,11 +62,11 @@ docker run -p 8080:8080 gochat
    ```bash
    go run main.go
    ```
-**2.Open index.html in a browser.
-3.Open another tab or browser window with the same index.html.
+1.Open index.html in a browser.
+2.Open another tab or browser window with the same index.html.
 4.Type a message in one tab → it instantly appears in the other tab.
 5. 🔄 All communication happens over WebSockets.
-6.⚠️ Messages are not stored — they vanish once you close the page.**
+6.⚠️ Messages are not stored — they vanish once you close the page.
 ---
 ## 🛣 Roadmap
 
@@ -87,5 +87,6 @@ Feel free to fork this repo and submit pull requests.
 ## 📜 License
 
 This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+
 
 
