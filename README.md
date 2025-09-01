@@ -35,9 +35,11 @@ The server will start at:
 ```bash
 👉 http://localhost:8080
 ```
-## Client
-Open index.html in your browser and start chatting in real time!
-Messages are ephemeral — once you close the page, the chat is gone.
+### 🖥 Client
+
+Open `index.html` in your browser to start chatting in real time.  
+
+⚠️ Messages are **ephemeral** — once you close the page, the chat is gone.
 ---
 ## ☁️ Deployment
 
@@ -87,6 +89,7 @@ Feel free to fork this repo and submit pull requests.
 ## 📜 License
 
 This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+
 
 
 
